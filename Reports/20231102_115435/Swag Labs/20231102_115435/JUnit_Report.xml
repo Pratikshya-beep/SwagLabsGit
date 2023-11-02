@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Swag Labs" time="106.755" tests="3" failures="0" errors="0">
+   <testsuite name="Swag Labs" tests="3" failures="0" errors="0" time="106.755" skipped="0" timestamp="2023-11-02 11:54:38" hostname="Pratikshya - INTLAP-254-Pratikshya-DN" id="Test Suites/Swag Labs">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Pratikshya\\git\\SwagLabsGit\\Reports\\20231102_115435\\Swag Labs\\20231102_115435"/>
+         <property name="logFiles" value="C:\\Users\\Pratikshya\\git\\SwagLabsGit\\Reports\\20231102_115435\\Swag Labs\\20231102_115435\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Pratikshya\\git\\SwagLabsGit\\Reports\\20231102_115435\\Swag Labs\\20231102_115435\\1698922523256.png, C:\\Users\\Pratikshya\\git\\SwagLabsGit\\Reports\\20231102_115435\\Swag Labs\\20231102_115435\\1698922563073.png"/>
+         <property name="hostName" value="Pratikshya - INTLAP-254-Pratikshya-DN"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="browser" value="Chrome 119.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.32"/>
+         <property name="sessionId" value="ee4d98f4432f41b7021f22e5bb07a542"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login Page Swag Labs" time="5.224" classname="Test Cases/Login Page Swag Labs" status="PASSED">
+         <system-out><![CDATA[2023-11-02 11:54:38 - [TEST_CASE][PASSED] - Test Cases/Login Page Swag Labs: Test Cases/Login Page Swag Labs
+
+2023-11-02 11:54:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-02 11:54:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-02 11:54:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-02 11:54:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-02 11:54:40 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-11-02 11:54:41 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-11-02 11:54:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_user-name"), findTestData("New Test Data").getValue(1, 1)): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+2023-11-02 11:54:43 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+2023-11-02 11:54:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_password"), findTestData("New Test Data").getValue(2, 1)): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_password'
+
+2023-11-02 11:54:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_password'
+
+2023-11-02 11:54:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+2023-11-02 11:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+2023-11-02 11:54:43 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2023-11-02 11:54:43 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Purchase" time="10.626" classname="Test Cases/New Purchase" status="PASSED">
+         <system-out><![CDATA[2023-11-02 11:56:03 - [TEST_CASE][PASSED] - Test Cases/New Purchase: Test Cases/New Purchase
+
+2023-11-02 11:56:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login Page Swag Labs"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login Page Swag Labs' successfully
+
+2023-11-02 11:56:03 - [TEST_CASE][PASSED] - Test Cases/Login Page Swag Labs: Test Cases/Login Page Swag Labs
+
+2023-11-02 11:56:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-02 11:56:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-02 11:56:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-02 11:56:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-02 11:56:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-02 11:56:04 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-11-02 11:56:05 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-11-02 11:56:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_user-name"), findTestData("New Test Data").getValue(1, 1)): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+2023-11-02 11:56:06 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+2023-11-02 11:56:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_password"), findTestData("New Test Data").getValue(2, 1)): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_password'
+
+2023-11-02 11:56:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_password'
+
+2023-11-02 11:56:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+2023-11-02 11:56:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+2023-11-02 11:56:07 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2023-11-02 11:56:07 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()
+
+2023-11-02 11:56:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login Page Swag Labs' successfully
+
+2023-11-02 11:56:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-11-02 11:56:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-11-02 11:56:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/button_Add to cart_1")): Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/button_Add to cart_1' is clicked on
+
+2023-11-02 11:56:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/button_Add to cart_1' is clicked on
+
+2023-11-02 11:56:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/a_2")): Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/a_2' is clicked on
+
+2023-11-02 11:56:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/a_2' is clicked on
+
+2023-11-02 11:56:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/button_Checkout")): Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/button_Checkout' is clicked on
+
+2023-11-02 11:56:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/button_Checkout' is clicked on
+
+2023-11-02 11:56:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/input_firstName"), findTestData("New Test Data").getValue(3, 1)): Text 'Levi' is set on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_firstName'
+
+2023-11-02 11:56:10 - [MESSAGE][PASSED] - Text 'Levi' is set on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_firstName'
+
+2023-11-02 11:56:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/input_lastName"), findTestData("New Test Data").getValue(4, 1)): Text 'James' is set on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_lastName'
+
+2023-11-02 11:56:11 - [MESSAGE][PASSED] - Text 'James' is set on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_lastName'
+
+2023-11-02 11:56:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/input_postalCode"), findTestData("New Test Data").getValue(5, 1)): Text '47226' is set on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_postalCode'
+
+2023-11-02 11:56:12 - [MESSAGE][PASSED] - Text '47226' is set on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_postalCode'
+
+2023-11-02 11:56:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/input_continue")): Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_continue' is clicked on
+
+2023-11-02 11:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_continue' is clicked on
+
+2023-11-02 11:56:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/button_Finish")): Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/button_Finish' is clicked on
+
+2023-11-02 11:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/button_Finish' is clicked on
+
+2023-11-02 11:56:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/button_Back Home")): Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/button_Back Home' is clicked on
+
+2023-11-02 11:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/button_Back Home' is clicked on
+
+2023-11-02 11:56:13 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2023-11-02 11:56:13 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit cart" time="11.36" classname="Test Cases/Edit cart" status="PASSED">
+         <system-out><![CDATA[2023-11-02 11:56:13 - [TEST_CASE][PASSED] - Test Cases/Edit cart: Test Cases/Edit cart
+
+2023-11-02 11:56:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login Page Swag Labs"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login Page Swag Labs' successfully
+
+2023-11-02 11:56:13 - [TEST_CASE][PASSED] - Test Cases/Login Page Swag Labs: Test Cases/Login Page Swag Labs
+
+2023-11-02 11:56:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-02 11:56:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-02 11:56:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-02 11:56:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-02 11:56:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-02 11:56:14 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-11-02 11:56:15 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-11-02 11:56:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_user-name"), findTestData("New Test Data").getValue(1, 1)): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+2023-11-02 11:56:17 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+2023-11-02 11:56:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_password"), findTestData("New Test Data").getValue(2, 1)): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_password'
+
+2023-11-02 11:56:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_password'
+
+2023-11-02 11:56:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+2023-11-02 11:56:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+2023-11-02 11:56:18 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2023-11-02 11:56:18 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()
+
+2023-11-02 11:56:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login Page Swag Labs' successfully
+
+2023-11-02 11:56:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-11-02 11:56:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-11-02 11:56:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart_1")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart_1' is clicked on
+
+2023-11-02 11:56:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart_1' is clicked on
+
+2023-11-02 11:56:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart_1_2")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart_1_2' is clicked on
+
+2023-11-02 11:56:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart_1_2' is clicked on
+
+2023-11-02 11:56:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/span_3")): Object: 'Object Repository/Page_Swag Labs/span_3' is clicked on
+
+2023-11-02 11:56:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/span_3' is clicked on
+
+2023-11-02 11:56:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Remove")): Object: 'Object Repository/Page_Swag Labs/button_Remove' is clicked on
+
+2023-11-02 11:56:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Remove' is clicked on
+
+2023-11-02 11:56:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Checkout")): Object: 'Object Repository/Page_Swag Labs/button_Checkout' is clicked on
+
+2023-11-02 11:56:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Checkout' is clicked on
+
+2023-11-02 11:56:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/input_firstName"), findTestData("New Test Data").getValue(3, 1)): Text 'Levi' is set on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_firstName'
+
+2023-11-02 11:56:22 - [MESSAGE][PASSED] - Text 'Levi' is set on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_firstName'
+
+2023-11-02 11:56:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/input_lastName"), findTestData("New Test Data").getValue(4, 1)): Text 'James' is set on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_lastName'
+
+2023-11-02 11:56:22 - [MESSAGE][PASSED] - Text 'James' is set on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_lastName'
+
+2023-11-02 11:56:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/input_postalCode"), findTestData("New Test Data").getValue(5, 1)): Text '47226' is set on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_postalCode'
+
+2023-11-02 11:56:23 - [MESSAGE][PASSED] - Text '47226' is set on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_postalCode'
+
+2023-11-02 11:56:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/input_continue")): Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_continue' is clicked on
+
+2023-11-02 11:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_continue' is clicked on
+
+2023-11-02 11:56:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/button_Finish")): Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/button_Finish' is clicked on
+
+2023-11-02 11:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/button_Finish' is clicked on
+
+2023-11-02 11:56:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/button_Back Home")): Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/button_Back Home' is clicked on
+
+2023-11-02 11:56:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/button_Back Home' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-02 11:54:38 - [TEST_SUITE][FAILED] - Swag Labs: Test Cases/New Purchase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_login-button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at New Purchase.run(New Purchase:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1698922475480.run(TempTestSuite1698922475480.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_login-button' located by '//input[@id='login-button']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2023-11-02 11:54:38 - [TEST_SUITE][FAILED] - Swag Labs: Test Cases/New Purchase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_login-button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at New Purchase.run(New Purchase:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1698922475480.run(TempTestSuite1698922475480.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_login-button' located by '//input[@id='login-button']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

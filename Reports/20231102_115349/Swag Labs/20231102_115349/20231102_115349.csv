@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Swag Labs,,,,2023-11-02 11:53:52,2023-11-02 11:53:55,2.361s,FAILED
+,,,,,,,
+Test Cases/Login Page Swag Labs,,,,2023-11-02 11:53:53,2023-11-02 11:53:54,0.034s,FAILED
+"openBrowser("""")",,,,2023-11-02 11:53:54,2023-11-02 11:53:54,0.009s,FAILED
+,,,,,,,
+Test Cases/New Purchase,,,,2023-11-02 11:53:54,2023-11-02 11:53:54,0.144s,FAILED
+"callTestCase(findTestCase(""Login Page Swag Labs""), [:], STOP_ON_FAILURE)",,,,2023-11-02 11:53:54,2023-11-02 11:53:54,0.115s,FAILED
+,,,,,,,
+Test Cases/Edit cart,,,,2023-11-02 11:53:55,2023-11-02 11:53:55,0.106s,FAILED
+"callTestCase(findTestCase(""Login Page Swag Labs""), [:], STOP_ON_FAILURE)",,,,2023-11-02 11:53:55,2023-11-02 11:53:55,0.088s,FAILED
