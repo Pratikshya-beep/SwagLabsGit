@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login Page Swag Labs'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/input_login-button'))
-
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/button_Add to cart'))
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/button_Add to cart_1'))
