@@ -19,15 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login Page Swag Labs'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/input_login-button'))
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart'))
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/button_Add to cart'))
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart_1'))
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/button_Add to cart_1'))
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart_1_2'))
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/a_2'))
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/span_3'))
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/button_Checkout'))
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Remove'))
+
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Checkout'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/input_firstName'), findTestData('New Test Data').getValue(
         3, 1))
@@ -43,6 +45,4 @@ WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/inpu
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/button_Finish'))
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/button_Back Home'))
-
-not_run: WebUI.closeBrowser()
 
