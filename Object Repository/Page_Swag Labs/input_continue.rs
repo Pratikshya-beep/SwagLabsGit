@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Checkout</name>
+   <name>input_continue</name>
    <tag></tag>
-   <elementGuidId>7befd974-397b-47ce-b559-968dde946144</elementGuidId>
+   <elementGuidId>2e43d6ca-3889-449f-a4df-204a61a591fb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#checkout</value>
+         <value>#continue</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='checkout']</value>
+         <value>//input[@id='continue']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,87 +21,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>ac174112-f4b0-41e8-8d7d-dce815d694b6</webElementGuid>
+      <value>input</value>
+      <webElementGuid>95cf6f47-b3c4-46b0-8424-ee5abae62fbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>13a5e27f-c1d1-4752-9723-c8c501b36fed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn_action btn_medium checkout_button </value>
-      <webElementGuid>d6b5086e-21df-4891-912f-a85f7019b4f7</webElementGuid>
+      <value>submit-button btn btn_primary cart_button btn_action</value>
+      <webElementGuid>80c1d01d-2710-4c59-963c-6c916c7c720d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-test</name>
       <type>Main</type>
-      <value>checkout</value>
-      <webElementGuid>9116e030-9edf-4401-ae3d-e5abf4c345b9</webElementGuid>
+      <value>continue</value>
+      <webElementGuid>93a8a9f3-4a05-4de8-9b72-0c6d2e72ea61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>checkout</value>
-      <webElementGuid>a0a71488-cd08-4038-bd19-078d193d7662</webElementGuid>
+      <value>continue</value>
+      <webElementGuid>60d632c0-5971-4611-8bb5-34b94c43a68f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>checkout</value>
-      <webElementGuid>f8fd9701-0710-4101-8cd5-1423d53c4f2e</webElementGuid>
+      <value>continue</value>
+      <webElementGuid>bdf3ae1f-5d19-44f0-b38a-54a90da1e927</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>value</name>
       <type>Main</type>
-      <value>Checkout</value>
-      <webElementGuid>5ef5a972-3c5f-4f0c-b111-60f664ec89cd</webElementGuid>
+      <value>Continue</value>
+      <webElementGuid>6969ee5a-6b32-420c-99cb-13ef417a6396</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;checkout&quot;)</value>
-      <webElementGuid>242feec0-eb2e-4715-8eda-4566a13f2c86</webElementGuid>
+      <value>id(&quot;continue&quot;)</value>
+      <webElementGuid>7e0c0422-5290-4350-8fa9-e14896e99776</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='checkout']</value>
-      <webElementGuid>dc693d90-f6dd-4a23-915b-92581ab98ef3</webElementGuid>
+      <value>//input[@id='continue']</value>
+      <webElementGuid>de2f914f-e2db-4b1f-bcea-010aae748cb3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='cart_contents_container']/div/div[2]/button[2]</value>
-      <webElementGuid>93895fbc-1528-4a52-a757-c6c3fea538d4</webElementGuid>
+      <value>//div[@id='checkout_info_container']/div/form/div[2]/input</value>
+      <webElementGuid>8e60f467-9ed6-4085-a56e-9a116017a121</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[2]</value>
-      <webElementGuid>ad8224fb-3c6f-40e5-9a6a-03abe8239a76</webElementGuid>
+      <value>//div[2]/input</value>
+      <webElementGuid>4033cbdb-a51b-4140-b208-bff9a41d0196</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'checkout' and @name = 'checkout' and (text() = 'Checkout' or . = 'Checkout')]</value>
-      <webElementGuid>5fc38f8c-d99a-49ee-89d6-2a3a927607e6</webElementGuid>
+      <value>//input[@type = 'submit' and @id = 'continue' and @name = 'continue']</value>
+      <webElementGuid>7d54ddcb-b761-4c79-9c15-7c6df2e94e5f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

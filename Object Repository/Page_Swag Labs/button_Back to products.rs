@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Checkout</name>
+   <name>button_Back to products</name>
    <tag></tag>
-   <elementGuidId>7befd974-397b-47ce-b559-968dde946144</elementGuidId>
+   <elementGuidId>1ea20896-33da-46d5-b858-30a3043b08c2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#checkout</value>
+         <value>#back-to-products</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='checkout']</value>
+         <value>//button[@id='back-to-products']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,86 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ac174112-f4b0-41e8-8d7d-dce815d694b6</webElementGuid>
+      <webElementGuid>50ecfd0f-447c-49e9-8a00-abb5b61ec394</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn_action btn_medium checkout_button </value>
-      <webElementGuid>d6b5086e-21df-4891-912f-a85f7019b4f7</webElementGuid>
+      <value>btn btn_secondary back btn_large inventory_details_back_button</value>
+      <webElementGuid>3ddbc33a-087a-4f5a-bb9f-068134078c3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-test</name>
       <type>Main</type>
-      <value>checkout</value>
-      <webElementGuid>9116e030-9edf-4401-ae3d-e5abf4c345b9</webElementGuid>
+      <value>back-to-products</value>
+      <webElementGuid>3f490a36-9bfd-45ed-a1b2-2a5ba2442c7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>checkout</value>
-      <webElementGuid>a0a71488-cd08-4038-bd19-078d193d7662</webElementGuid>
+      <value>back-to-products</value>
+      <webElementGuid>c6e328aa-681c-4627-b6f6-a0b930ca167a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>checkout</value>
-      <webElementGuid>f8fd9701-0710-4101-8cd5-1423d53c4f2e</webElementGuid>
+      <value>back-to-products</value>
+      <webElementGuid>f3a1c0a4-9e57-47ca-a031-3203ea87f5d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Checkout</value>
-      <webElementGuid>5ef5a972-3c5f-4f0c-b111-60f664ec89cd</webElementGuid>
+      <value>Back to products</value>
+      <webElementGuid>8071599a-aa9b-4735-ba7c-34d793f13bbc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;checkout&quot;)</value>
-      <webElementGuid>242feec0-eb2e-4715-8eda-4566a13f2c86</webElementGuid>
+      <value>id(&quot;back-to-products&quot;)</value>
+      <webElementGuid>16e58a87-4189-40bf-8285-e9f580e62144</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='checkout']</value>
-      <webElementGuid>dc693d90-f6dd-4a23-915b-92581ab98ef3</webElementGuid>
+      <value>//button[@id='back-to-products']</value>
+      <webElementGuid>1921dcd9-260d-45fc-b642-035d2e6d3a0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='cart_contents_container']/div/div[2]/button[2]</value>
-      <webElementGuid>93895fbc-1528-4a52-a757-c6c3fea538d4</webElementGuid>
+      <value>//div[@id='header_container']/div[2]/div/button</value>
+      <webElementGuid>47a6912e-704d-41fb-b573-0d14bfd2588e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[2]</value>
-      <webElementGuid>ad8224fb-3c6f-40e5-9a6a-03abe8239a76</webElementGuid>
+      <value>//div[2]/div/button</value>
+      <webElementGuid>92f17e9a-a0a4-46d0-865b-29be8597f971</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'checkout' and @name = 'checkout' and (text() = 'Checkout' or . = 'Checkout')]</value>
-      <webElementGuid>5fc38f8c-d99a-49ee-89d6-2a3a927607e6</webElementGuid>
+      <value>//button[@id = 'back-to-products' and @name = 'back-to-products' and (text() = 'Back to products' or . = 'Back to products')]</value>
+      <webElementGuid>c9df6efb-4825-41d5-9b19-c89cd863cf9a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
