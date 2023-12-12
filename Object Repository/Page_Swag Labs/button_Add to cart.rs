@@ -6,12 +6,12 @@
    <elementGuidId>5c20b78a-bdc9-4532-9274-4507429b07e5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[@id='add-to-cart-sauce-labs-backpack']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='add-to-cart-test.allthethings()-t-shirt-(red)']</value>
+         <key>CSS</key>
+         <value>#add-to-cart-sauce-labs-backpack</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,39 +22,39 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>dd2eefa6-b9a8-46e0-ad03-fd06cb33a9e8</webElementGuid>
+      <webElementGuid>a2dc8dce-46e7-4987-bfa1-7044c87cb9e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn_primary btn_small btn_inventory</value>
-      <webElementGuid>7605dd88-eebd-49c3-90bd-97afa905dd91</webElementGuid>
+      <value>btn btn_primary btn_small btn_inventory </value>
+      <webElementGuid>195eff22-0edf-4416-9ed3-ada1c3d67d28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-test</name>
       <type>Main</type>
-      <value>add-to-cart-test.allthethings()-t-shirt-(red)</value>
-      <webElementGuid>3ecf5f0c-acf5-45d2-8555-4e61dc003250</webElementGuid>
+      <value>add-to-cart-sauce-labs-backpack</value>
+      <webElementGuid>7316d132-a2a4-46d6-a4b4-4d07b979c0d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>add-to-cart-test.allthethings()-t-shirt-(red)</value>
-      <webElementGuid>486a2bd4-31fe-4a84-8836-5aaea0bb6d35</webElementGuid>
+      <value>add-to-cart-sauce-labs-backpack</value>
+      <webElementGuid>a6bdc0b1-d183-45f0-b850-c50c4c203178</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>add-to-cart-test.allthethings()-t-shirt-(red)</value>
-      <webElementGuid>7dd94dec-24d2-4883-ae37-d55f4845e52e</webElementGuid>
+      <value>add-to-cart-sauce-labs-backpack</value>
+      <webElementGuid>8de167ca-1dfc-4f5c-8934-ec6256f8011e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,18 +62,50 @@
       <name>text</name>
       <type>Main</type>
       <value>Add to cart</value>
-      <webElementGuid>d8c6b7d2-ac33-4066-ab67-2366020ba0e3</webElementGuid>
+      <webElementGuid>387ae690-2c8a-41a5-a607-6b2cd1f5bc78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;add-to-cart-test.allthethings()-t-shirt-(red)&quot;)</value>
-      <webElementGuid>8c46f5d0-4585-4f01-adbb-12195643415f</webElementGuid>
+      <value>id(&quot;add-to-cart-sauce-labs-backpack&quot;)</value>
+      <webElementGuid>4a791df0-b317-4949-a213-da439d32e531</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='add-to-cart-sauce-labs-backpack']</value>
+      <webElementGuid>00a03edf-1500-41d7-bace-cd1be7b5b644</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='inventory_container']/div/div/div[2]/div[2]/button</value>
+      <webElementGuid>5db5238d-4523-4b66-9692-71168201e680</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>3a8de5a2-58c6-482f-b20e-7be3b8aaf154</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'add-to-cart-sauce-labs-backpack' and @name = 'add-to-cart-sauce-labs-backpack' and (text() = 'Add to cart' or . = 'Add to cart')]</value>
+      <webElementGuid>74723b99-6df2-46fc-8def-3db2f66d0eb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
@@ -91,41 +123,9 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/button</value>
-      <webElementGuid>83bad741-1a6f-40e7-81e1-955f21225234</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'add-to-cart-test.allthethings()-t-shirt-(red)' and @name = 'add-to-cart-test.allthethings()-t-shirt-(red)' and (text() = 'Add to cart' or . = 'Add to cart')]</value>
       <webElementGuid>1079e04f-fbfc-47a7-a195-72853d334ebf</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@id='add-to-cart-sauce-labs-backpack']</value>
-      <webElementGuid>b0182ac6-622e-4d8d-a04c-1e9e13e3f110</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='inventory_container']/div/div/div[2]/div[2]/button</value>
-      <webElementGuid>bf9db335-19d5-491d-aeaa-24970cbeac28</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[@id = 'add-to-cart-sauce-labs-backpack' and @name = 'add-to-cart-sauce-labs-backpack' and (text() = 'Add to cart' or . = 'Add to cart')]</value>
-      <webElementGuid>d9d06509-3fb8-49ca-95bf-0c75b5a8f978</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -29,5 +29,5 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_pa
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_login-button'))
 
-not_run: WebUI.closeBrowser()
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart'), 0)
 
